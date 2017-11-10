@@ -1,0 +1,32 @@
+/*************AREA OF TRIANGLE*****************************
+
+
+
+
+
+
+         #include<stdio.h>
+          int main()
+          {
+                int height,base;
+                float area;
+                printf("Enter height and base:");
+                scanf("%d%d",&height,&base);
+                area=0.5*height*base;
+                printf("area of triangle=%f",area);
+        return 0;
+           }
+
+/********************OUTPUT*********************
+
+
+
+
+
+
+dell@dell-OptiPlex-7040:~$ gedit ganeshnn.c
+dell@dell-OptiPlex-7040:~$ gcc ganeshnn.c
+dell@dell-OptiPlex-7040:~$ ./a.out
+Enter height and base:5 5
+area of triangle=12.500000
+*/
